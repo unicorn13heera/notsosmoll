@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hi from Heera 💌</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    let password = prompt("Hehe this is a secret! 🩷 What's the password?");
+    if (password !== "muahhh") {
+      document.body.innerHTML = "Oops! Wrong password 😅";
+    }
+  </script>
+  
+</head>
+<body>
+
+  <div id="greeting-container">
+    <p id="greeting-text">
+      Hi, it's Heera :P <br />
+      It sucks that I'm the one who’s far away from you guys…<br />
+      *Kiter rinduuuu* T_T<br /><br />
+      So here’s a smoll not-so-interactive game for you guys if you miss me too :P
+    </p>
+    <button id="start-btn">Start the Game!</button>
+  </div>
+
+  <div id="game-section" style="display: none;">
+    <h1>Click the Blob!</h1>
+    <p>Try to catch it before time runs out okiee?</p>
+    
+    <div id="game-container">
+      <div id="blob"></div>
+    </div>
+    
+    <div id="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
